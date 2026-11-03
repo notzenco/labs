@@ -18,13 +18,16 @@ runs locally and targets only its own process.
 
 Start at [`exploit/RCE/README.md`](exploit/RCE/README.md).
 
-If you would rather read the weakness than the language, [`exploit/CWES.md`](exploit/CWES.md) covers each CWE once and shows how it
-appears in every language variant of that technique.
+If you would rather read the weakness than the language,
+[`exploit/CWES.md`](exploit/CWES.md) covers each CWE once and shows how
+it appears in every language variant of that technique.
 
 Each lab ships a vulnerable program, a patched counterpart, an exploit
 driver that reports what actually landed, and a written walkthrough. The
 driver is a regression gate: it exits non-zero if a payload stops
 working or a fix stops holding.
+
+Five techniques, nineteen language variants, sixty checks in total.
 
 These are synthetic reproductions. Do not deploy them anywhere
 reachable.
