@@ -1,7 +1,10 @@
 # Build artifacts from the lab binaries.
-rce_vulnerable
-rce_fixed
-rce_canary
+#
+# Every variant names its binaries <prefix>_vulnerable and <prefix>_fixed,
+# so the patterns are generic rather than listing one name per language.
+*_vulnerable
+*_fixed
+*_canary
 *.dSYM/
 
 # Python

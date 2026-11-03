@@ -10,8 +10,11 @@ runs locally and targets only its own process.
 
 | Technique | Languages | What it teaches |
 | --------- | --------- | --------------- |
-| [RCE](exploit/RCE/) | C++, Python, Go, Rust, Node.js | Command injection, plus each language's own "attacker data becomes code" |
-| [SQLi](exploit/SQLi/) | Python, Node.js | SQL injection: tautology and UNION-based extraction |
+| [RCE](exploit/RCE/) | C++, C, Python, Ruby, Go, Rust, Node.js | Command injection, plus each language's own "attacker data becomes code" |
+| [SQLi](exploit/SQLi/) | C, Python, Node.js | SQL injection: tautology and UNION-based extraction |
+| [PathTraversal](exploit/PathTraversal/) | C, Python, Node.js, Go | Reading files outside the directory you meant to serve |
+| [SSRF](exploit/SSRF/) | Python, Node.js, Go | Making a server fetch a URL you chose |
+| [Deserialization](exploit/Deserialization/) | Python, Ruby | Untrusted bytes that become code, or become state |
 
 Start at [`exploit/RCE/README.md`](exploit/RCE/README.md).
 
