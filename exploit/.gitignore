@@ -1,0 +1,22 @@
+# Build artifacts from the lab binaries.
+rce_vulnerable
+rce_fixed
+rce_canary
+*.dSYM/
+
+# Python
+__pycache__/
+*.pyc
+
+# Go
+go-build/
+*.test
+
+# Node
+node_modules/
+
+# Rust
+target/
+
+# OS
+.DS_Store
