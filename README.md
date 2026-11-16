@@ -2,7 +2,7 @@
 
 Local practice material: deliberately vulnerable programs, synthetic
 reproductions, and the fixtures that keep them honest. Everything here
-runs locally and targets only its own process.
+runs locally and contacts no external host.
 
 | Folder | Purpose |
 | ------ | ------- |
@@ -31,3 +31,7 @@ Five techniques, nineteen language variants, sixty checks in total.
 
 These are synthetic reproductions. Do not deploy them anywhere
 reachable.
+
+## License
+
+MIT. See [`LICENSE`](LICENSE).
